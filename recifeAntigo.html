@@ -3,39 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: rgb(17, 44, 75);
-        }
-    
-        main{
-            background-color: rgb(255, 255, 255);
-            border: 5px black;
-        }
-        header{
-            color: antiquewhite;
-            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Bandeira_de_Pernambuco_%28quadrada%29.svg/1024px-Bandeira_de_Pernambuco_%28quadrada%29.svg.png');
-            background-size: cover;
-            background-position: center; 
-        }
-        header, main, footer {
-            padding: 20px;
-            margin: 0 auto;
-            max-width: 800px;
-            text-align: justify;
-        }
-        h1, h4{
-           text-align: center; 
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        footer{
-            background-color: rgb(184, 181, 181);
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
     <title>Recife Antigo</title>
 </head>
 <body>
@@ -47,7 +15,9 @@
     <main>
         <article>
             <h3>Igreja de São José do Ribamar</h3>
-            <img src="./img/igreja.png" alt="Igreja de São José do Ribamar">
+            <div class="container">
+                <img src="./img/igreja.png" alt="Igreja de São José do Ribamar">
+            </div>
             <p>A Igreja de São José do Ribamar, localizada no bairro de São José, é uma das construções mais icônicas de Recife Antigo. 
                 A igreja foi inaugurada em 1907 e é um exemplo maravilhoso da arquitetura neogótica. 
                 Ela possui vitrais deslumbrantes e detalhes intrincados em sua estrutura. Além de ser um lugar de grande importância religiosa, 
@@ -55,7 +25,9 @@
                  celebrações religiosas.</p>
 
             <h3>Rua do Bom Jesus</h3>
-            <img src="./img/rua.png" alt="Rua do Bom Jesus">
+            <div class="container">
+                <img src="./img/rua.png" alt="Rua do Bom Jesus">
+            </div>
             <p>A Rua do Bom Jesus é uma das ruas mais antigas e famosas de Recife Antigo. Originalmente chamada de Rua dos Judeus, é onde se localiza a primeira sinagoga das Américas,
                  a Sinagoga Kahal Zur Israel, que foi construída no século XVII. Essa rua é um verdadeiro tesouro histórico, com uma mistura de arquitetura colonial e 
                  diversos casarões preservados. Além de seu valor histórico, a Rua do Bom Jesus é um polo cultural vibrante, abrigando galerias de arte, cafés, bares e 
@@ -66,7 +38,7 @@
     <footer>
         <small><b>Informações de Contato:</b></small><br>
         <small>Para mais informações sobre o Marco Zero de Recife e seus eventos, entre em contato com a Secretaria de Turismo de Recife através do telefone (81) 3355-8600 
-            ou visite o site oficial da Prefeitura de Recife.</small>
+            ou visite o site oficial da <a href="#">Prefeitura de Recife</a>.</small>
     </footer>
 
 </body>
